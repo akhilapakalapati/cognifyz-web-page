@@ -1,0 +1,33 @@
+.home-main-box{
+    background-color: #f4f2f0;
+    display:flex;
+    flex-direction:row;
+}
+
+.heading-Empowering{
+    font-size: 16px;
+    color:#143EEC;
+}
+
+.home-main-heading{
+    background-image: linear-gradient(to right,#9419EA,#F749F4,#EA1981); /* Define your gradient colors */
+    -webkit-background-clip: text; /* For WebKit (Safari, Chrome, etc.) */
+    background-clip: text; /* Set the background-clip property to text */
+    color: transparent; /* Hide the original text color */
+    font-size:25px;
+}
+
+.para-home{
+    color:grey;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 10px;
+}
+
+.btn-start{
+    background-color:#D4B4F0;
+    padding:10px;
+    border-radius: 20px;
+    font-weight: 400;
+    margin:5px;
+}

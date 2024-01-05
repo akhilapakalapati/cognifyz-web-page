@@ -1,0 +1,17 @@
+.para-service{
+    color:#B1AFB3;
+    padding: 20px;
+}
+
+.service-box{
+    display: flex;
+    flex-direction: row;
+}
+
+.main-background-service{
+    text-align: center;
+}
+
+.heading-service{
+    padding: 20px;
+}

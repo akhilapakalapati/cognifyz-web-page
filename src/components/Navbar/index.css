@@ -1,0 +1,45 @@
+h1 {
+    font-size: 16px;
+    margin: 0;
+}
+
+
+/* Your index.css or appropriate CSS file */
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    color: inherit;
+    text-decoration: none;
+    background-color: #d9d3ea;
+}
+
+.nav-box {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+/* Styling for the Link component */
+.nav-box a {
+    text-decoration: none; /* Remove underlines from links */
+}
+
+/* Styling for the h1 elements */
+.nav-box a h1 {
+    font-size: 16px;
+    margin: 0;
+    text-decoration: none; /* Remove underlines from h1 elements */
+    cursor: pointer; /* Show pointer cursor on hover (optional) */
+}
+
+/* Optional: Style changes on hover */
+.nav-box a:hover {
+    color: blue; /* Change color on hover (optional) */
+}
+
+.Cognifyz-img{
+    height: 80px;
+    width:170px;
+}
